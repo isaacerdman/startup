@@ -8,7 +8,7 @@ Meal prep can be a lifesaver. Whether you have fitness goals, a demanding schedu
 
 ### Key Features
 
- - Secure login over HTTPS
+ - Secure **login** over HTTPS
  - **Recipes** will be displayed in the users home screen when they log in
  - The user will be able to **add** a new recipe by selecting the `+` button.
  - There will be a **chat** feature that allows the user to send recipes back and forth with 
