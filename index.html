@@ -1,24 +1,47 @@
 <!DOCTYPE html>
-<html lang = "en"> <!-- think of "lang = "en"" *atributes* or arguments -->
-<head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>  
-    <h1>Hello World!</h1>
-    <h2>this is 260</h2>
-    <p>hello</p> <!--paragraph-->
-    
-    <div class="center-container">
-        <a href="http://byu.edu"><img alt="cougar" src="byu.png" width="200px" /></a>
-    </div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapFeed</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- Use header, main, and footer elements to give semantic structure -->
+    <header>
+      <h1>SnapFeed<sup>&reg;</sup></h1>
+
+      <!-- Navigation elements -->
+      <nav>
+        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+        <menu>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="about.html">About</a></li>
+        </menu>
+      </nav>
+
+      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
+      <hr />
+    </header>
+
+    <main>
+      <h1>Welcome</h1>
+      <p>Login to prep</p>
+      <form method="get" action="recipes.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name here" />
+        <button type="submit">Login</button>
+      </form>
+    </main>
+
+    <footer>
+      <hr />
+      <span class="text-reset">Ike Erdman</span>
+      <br />
+      <a href="https://github.com/isaacerdman/cs260">GitHub</a>
+    </footer>
+  </body>
 </html>
-
-
-    <!--
-        html
-    
-
-
-
-    -->
