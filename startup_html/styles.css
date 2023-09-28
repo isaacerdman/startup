@@ -6,6 +6,30 @@ body {
     padding: 0;
 }
 
+menu {
+    text-align: center;
+}
+
+.pages {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    color: #9ea19d;
+}
+
+.users {
+    color: #9ea19d;
+}
+
+.text-reset {
+    color: #71756f;
+}
+
+.chat {
+    display: inline;
+    text-align: right;
+}
+
 /* Style the main heading (h1) */
 h1 {
     font-size: 36px;
