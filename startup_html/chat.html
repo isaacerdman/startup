@@ -11,16 +11,18 @@
   <body>
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
-      <h1>SnapFeed<sup>&reg;</sup></h1>
+      <h1>SnapFeed</h1>
 
       <!-- Navigation elements -->
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
         <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="recipes.html">Recipes</a></li>
-          <li><a href="chat.html">Chat</a></li>
-          <li><a href="about.html">About</a></li>
+          <div class="pages">
+            <li class="pages"><a href="index.html">Home</a></li>
+            <li class="pages"><a href="recipes.html">Recipes</a></li>
+            <li class="pages"><a href="chat.html">Chat</a></li>
+            <li class="pages"><a href="about.html">About</a></li>
+          </div>
         </menu>
       </nav>
 
@@ -34,7 +36,7 @@
         <span class="user-name">Mystery User</span>
       </div>
       <ul class="chat">
-        <li class="chat">Tim sent a new recipe</li>
+        <li class="recipe-name">Tim sent a new recipe</li>
         <li class="recipe-name">Ada sent a new recipe</li>
         <li class="recipe-name">Tim sent a new recipe</li>
       </ul>

@@ -13,7 +13,8 @@ menu {
 .pages {
     display: inline-block;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
     color: #9ea19d;
 }
 
@@ -25,9 +26,26 @@ menu {
     color: #71756f;
 }
 
+.recipe-name {
+    text-align: right;
+    margin-right: 10px;
+    color: #9ea19d;
+}
+
 .chat {
     display: inline;
     text-align: right;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+#welcome {
+    font-family: "Young Serif", serif;
+}
+
+@font-face {
+    font-family: "Pixelify";
+    src: url("https://fonts.google.com/specimen/Pixelify+Sans");
 }
 
 /* Style the main heading (h1) */

@@ -12,22 +12,19 @@
   <body>
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
-      <h1>SnapFeed<sup>&reg;</sup></h1>
+      <h1>SnapFeed</h1>
 
       <!-- Navigation elements -->
       <nav>
         <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <div class="pages">
-          <menu>
-            <div class="pages">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="recipes.html">Recipes</a></li>
-              <li><a href="chat.html">Chat</a></li>
-              <li><a href="about.html">About</a></li>
-            </div>
-          </menu>
-        </div>
-        
+        <menu>
+          <div class="pages">
+            <li class="pages"><a href="index.html">Home</a></li>
+            <li class="pages"><a href="recipes.html">Recipes</a></li>
+            <li class="pages"><a href="chat.html">Chat</a></li>
+            <li class="pages"><a href="about.html">About</a></li>
+          </div>
+        </menu>
       </nav>
 
       <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
@@ -35,7 +32,7 @@
     </header>
 
     <main>
-      <h1 >Welcome</h1>
+      <h1 id="welcome">Welcome</h1>
       <p>Login to prep</p>
       <div class="center-container">
         <form method="get" action="recipes.html">
