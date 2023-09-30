@@ -9,7 +9,7 @@
 ### HTML deliverable
 
  - **HTML pages** - Three HTML pages that represent the ability to login, view cookbook/friend activity, and view one recipe at a time
- - **Links** - The home page and recipe page link to each other. The image for pizza on the cookbook page also links to the recipe page
+ - **Links** - The home page and recipe page link to each other. Login from home takes user to cookbook page. The image for pizza on the cookbook page also links to the recipe page
  - **Text** - Text input can be given to search for a particular recipe in either the cookbook or the recipe page
  - **Images** - Images added for temporary recipe displays under recipe page
  - **Login** - Input box and submit button for login
