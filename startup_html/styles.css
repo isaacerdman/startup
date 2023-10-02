@@ -67,7 +67,7 @@ h2 {
 p {
     font-size: 16px;
     color: #929a90;
-    text-align: center;
+    text-align: left;
 }
 
 .center-container {
@@ -75,6 +75,50 @@ p {
     justify-content: center;
     align-items: baseline; 
     height: 100vh;
+    color: #929a90;
+}
+
+.search-container {
+    display: flex;
+    justify-content: left;
+    align-items: baseline; 
+    color: #929a90;
+}
+
+.footer {
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+
+.ingredients {
+    color: #689454;
+}
+
+.grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 350px;
+    grid-gap: 1em;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image {
+    border: #333 solid thick;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:nth-child(odd) {
+    background: hsl(220, 25%, 70%);
+}
+
+.image:nth-child(even) {
+    background: hsl(420, 25%, 70%);
 }
 
 /* Style the anchor (a) */
@@ -86,4 +130,12 @@ a {
 /* Change the link color when hovered */
 a:hover {
     color: #87ecac; /* Darker blue on hover */
+}
+
+aside {
+    float: right;
+    padding: 3em;
+    margin: .5em;
+    border: #689454 solid thin;
+    /* align-items: baseline; */
 }
