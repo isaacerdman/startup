@@ -16,3 +16,10 @@
  - **Database** - The recipes will be saved for the profile, representing data pulled from database.
  - **WebSocket** - View activity of friends in app as they add and modify recipes.
 
+### CSS deliverable
+
+#### Simon CSS
+
+**main.css**: Changed padding around header elements, increased footer size slightly, centered footer text vertically.
+**play.css**: Changed colors, borders and spacing of game and notifications. Messed around with the shadow feature to see what it would look like with color and settled on white. Made the notifications less opaque.
+**about.css**: Changed border width and roundness for image and quote field. Spaced out elements more, and changed some font sizing, bold, and the pre-author character. Centered author name.
