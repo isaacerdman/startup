@@ -34,8 +34,18 @@ header h1 {
 .username {
     font-size: 14px;
     opacity: .5;
+    justify-items: start;
     display: inline-block;
     vertical-align: baseline;
+}
+
+.brand {
+    margin: 0;
+    padding: 0;
+}
+
+.brand .info {
+    display: inline-block;
 }
 
 .menu {
@@ -85,7 +95,7 @@ main p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
 }
 
 form label,
@@ -243,7 +253,7 @@ body {
     }
 }
 
-@media (max-height: 200px) {
+@media (max-height: 500px) {
     header {
         display: none;
     }
