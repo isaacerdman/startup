@@ -1,45 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SnapFeed</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
+</head>
+<body>
     <header>
-      <h1>SnapFeed</h1>
-
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-          <div class="pages">
-            <li class="pages"><a href="index.html">Home</a></li>
-            <li class="pages"><a href="cookbook.html">Cookbook</a></li>
-            <li class="pages"><a href="recipe.html">Recipe</a></li>
-          </div>
-        </menu>
-      </nav>
-
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
+        <h1>SnapFeed</h1>
+        <span class="username">User: Mystery User</span>
+        <nav>
+            <ul class="menu">
+              <li class="pages"><a href="index.html">Home</a></li>
+              <li class="pages"><a href="cookbook.html">Cookbook</a></li>
+              <li class="pages"><a href="recipe.html">Recipe</a></li>
+              <li class="pages"><a href="messages.html">Messages</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-      <div class="users">
-        User:
-        <span class="user-name">Mystery User</span>
-      </div>
-      <ul class="notification">
-        <li class="recipe-name">Tim added a new recipe</li>
-        <li class="recipe-name">Ada added a new recipe</li>
-        <li class="recipe-name">Tim added a new recipe</li>
-      </ul>
-
       <!-- More formatting with old style HTML -->
       <br />
 
@@ -50,39 +31,36 @@
 
       <br />
 
-      <!-- <div>
-        <table>
-          <tr>
-            <td>
-              <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Only_Original_Alfredo_Sauce_with_Butter_and_Parmesano-Reggiano_Cheese.png" width="250px"/>
-            </td>
-            <td>
-              <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Parmigiana_di_melanzane.jpg/2560px-Parmigiana_di_melanzane.jpg" width="250px"/>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/2560px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg" width="250px"/>
-            </td>
-            <td>
-              <a href="recipe.html"><img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="250px"/></a>
-            </td>
-          </tr>
-        </table>
-      </div> -->
-
       <div class="grid-container">
         <div class="image">
-          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Only_Original_Alfredo_Sauce_with_Butter_and_Parmesano-Reggiano_Cheese.png" width="250px"/>
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Only_Original_Alfredo_Sauce_with_Butter_and_Parmesano-Reggiano_Cheese.png" width="200px"/>
         </div>
         <div class="image">
-          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Parmigiana_di_melanzane.jpg/2560px-Parmigiana_di_melanzane.jpg" width="250px"/>
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Parmigiana_di_melanzane.jpg/2560px-Parmigiana_di_melanzane.jpg" width="200px"/>
         </div>
         <div class="image">
-          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/2560px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg" width="250px"/>
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg/2560px-001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg" width="200px"/>
         </div>
         <div class="image">
-          <a href="recipe.html"><img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="250px"/></a>
+          <a href="recipe.html"><img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="200px"/></a>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Hamburger_%28black_bg%29.jpg" width="200px"/>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Four_cheese_soup.jpg" width="200px"/>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Enchilada_Rice_Beans.jpg" width="200px"/>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Various_sushi%2C_beautiful_October_night_at_midnight.jpg" width="200px"/>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Koh_Mak%2C_Thailand%2C_Fried_rice_with_seafood%2C_Thai_fried_rice.jpg/2560px-Koh_Mak%2C_Thailand%2C_Fried_rice_with_seafood%2C_Thai_fried_rice.jpg" width="200px"/>
+        </div>
+        <div class="image">
+          <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/2560px-Chicken_makhani.jpg" width="200px"/>
         </div>
       </div>
 
@@ -92,14 +70,11 @@
         <button>+</button>
       </div>
     </main>
-
     <footer>
-        <div class="footer">
-        <hr />
-        <span class="text-reset">Ike Erdman</span>
-        <br />
-        <a href="https://github.com/isaacerdman/cs260">GitHub</a>
-      </div>
+      <hr />
+      <span>Ike Erdman</span>
+      <br />
+      <a href="https://github.com/isaacerdman/cs260">GitHub</a>
     </footer>
-  </body>
+</body>
 </html>

@@ -1,39 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SnapFeed</title>
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <!-- Use header, main, and footer elements to give semantic structure -->
+</head>
+<body>
     <header>
-      <h1>SnapFeed</h1>
-
-      <!-- Navigation elements -->
-      <nav>
-        <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
-        <menu>
-          <div class="pages">
-            <li class="pages"><a href="index.html">Home</a></li>
-            <li class="pages"><a href="cookbook.html">Cookbook</a></li>
-            <li class="pages"><a href="recipe.html">Recipe</a></li>
-          </div>
-        </menu>
-      </nav>
-
-      <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
-      <hr />
+        <h1>SnapFeed</h1>
+        <span class="username">User: Mystery User</span>
+        <nav>
+            <ul class="menu">
+              <li class="pages"><a href="index.html">Home</a></li>
+              <li class="pages"><a href="cookbook.html">Cookbook</a></li>
+              <li class="pages"><a href="recipe.html">Recipe</a></li>
+              <li class="pages"><a href="messages.html">Messages</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-      <div class="users">
-        User:
-        <span class="user-name">Mystery User</span>
-      </div>
 
       <!-- More formatting with old style HTML -->
       <br />
@@ -45,8 +32,8 @@
 
       <br />
 
-      <div>
-        <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="250px"/>
+      <div class="image">
+        <img alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="400px"/>
       </div>
 
       <br />
@@ -65,17 +52,15 @@
 
       <div>
         <button>Modify Recipe</button>
+        <a href="messages.html"><button>Send Recipe</button></a>
       </div>
 
     </main>
-
     <footer>
-        <div class="footer">
-            <hr />
-            <span class="text-reset">Ike Erdman</span>
-            <br />
-            <a href="https://github.com/isaacerdman/cs260">GitHub</a>
-        </div>
-      </footer>
-    </body>
+      <hr />
+      <span>Ike Erdman</span>
+      <br />
+      <a href="https://github.com/isaacerdman/cs260">GitHub</a>
+    </footer>
+</body>
 </html>
