@@ -35,8 +35,6 @@ Meal prep can be a lifesaver. Whether you have fitness goals, a demanding schedu
 
 ### CSS deliverable
 
-#### Startup CSS
-
  - **Header**, **Footer**, and **Main content** - Formatted to the header and footer are proper sizes. Header and footer disappear when screen is short. The main content is fixed to a minimum size so the footer remains at the bottom of the screen even with minimal content in main.
  - **Navigation Elements** - Turned into more of a button style with changing appearance depending on hover by user. 4 pages (one added for inbox since last assignment). Link to recipe page from pizza image on cookbook page. Link to inbox page from "send recipe" button on recipe page. And "Snapfeed" in upper left header links back to home.
  - **Responsive Window Resizing** - Already mentioned some in first bullet point, but images on cookbook page with remain same size and move down to create more rows and less columns when too thin. Navigation buttons in menu get a bottom margin in portrait mode so they don't overlap when screen in thin. Displayed username by "Snapfeed" in header moves underneath "Snapfeed" when screen is narrow.
