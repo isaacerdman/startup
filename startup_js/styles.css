@@ -7,12 +7,6 @@
     --accent: #537679;
 }
 
-/* --text: #0f0e0b;
---background: #eae8e1;
---primary: #636b4c;
---secondary: #dbe3d8;
---accent: #6c8c63; */
-
 /* Apply a background color to the body */
 body {
     background-color: var(--background);
