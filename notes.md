@@ -25,3 +25,8 @@
 **play.css**: Changed colors, borders and spacing of game and notifications. Messed around with the shadow feature to see what it would look like with color and settled on white. Made the notifications less opaque.
 
 **about.css**: Changed border width and roundness for image and quote field. Spaced out elements more, and changed some font sizing, bold, and the pre-author character. Centered author name.
+
+#### Simon JS
+
+**login.js**: Added key event listener to allow the user to press enter to login
+
