@@ -120,3 +120,11 @@ Local storage values much be `string`, `number`, or `boolean`. Objects and array
  - **Login** - Input box and submit button for login
  - **Database** - The recipes will be saved for the profile, representing data pulled from database.
  - **WebSocket** - View activity of friends in app as they add and modify recipes.
+
+
+### JavaScript deliverable
+
+ - **Login** - 
+ - **Database Data** - 
+ - **WebSocket** - 
+ - **Interaction Logic** - 
