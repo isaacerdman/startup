@@ -124,7 +124,7 @@ Local storage values much be `string`, `number`, or `boolean`. Objects and array
 
 ### JavaScript deliverable
 
- - **Login** - 
- - **Database Data** - 
- - **WebSocket** - 
- - **Interaction Logic** - 
+ - **Login** - Login allowed and takes user directly to next page. Local storage used to temporarily store and display current user
+ - **Database Data** - Login info will be saved here. Upload image to be displayed in cookbook, will be saved for user.
+ - **WebSocket** - Notifications for when a user uploads a new recipe.
+ - **Interaction Logic** - Clicking on a recipe in cookbook will take you to the recipe page with single focus. Login works.
