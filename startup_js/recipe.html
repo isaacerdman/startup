@@ -20,7 +20,6 @@
               <li class="pages"><a href="index.html">Home</a></li>
               <li class="pages"><a href="cookbook.html">Cookbook</a></li>
               <li class="pages"><a href="recipe.html">Recipe</a></li>
-              <li class="pages"><a href="inbox.html">Inbox</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +28,7 @@
       <!-- More formatting with old style HTML -->
       <br />
 
-      <div>
+      <!-- <div>
         <label for="count">Recipe: </label>
         <input type="text" id="count" value="Pizza" readonly />
       </div>
@@ -39,6 +38,19 @@
       <div  class="center">
         <div class="single-image">
           <img class="round" alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/2560px-Pizza-3007395.jpg" width="400px"/>
+        </div>
+      </div> -->
+
+      <div>
+        <label for="recipeName">Recipe: </label>
+        <input type="text" id="recipeName" readonly />
+      </div>
+      
+      <br />
+      
+      <div class="center">
+        <div class="single-image" id="recipeImageContainer">
+          <!-- Image will be added dynamically using JavaScript -->
         </div>
       </div>
 
@@ -58,7 +70,6 @@
 
       <div>
         <button>Modify Recipe</button>
-        <a href="inbox.html"><button>Send Recipe</button></a>
       </div>
 
     </main>

@@ -20,7 +20,6 @@
               <li class="pages"><a href="index.html">Home</a></li>
               <li class="pages"><a href="cookbook.html">Cookbook</a></li>
               <li class="pages"><a href="recipe.html">Recipe</a></li>
-              <li class="pages"><a href="inbox.html">Inbox</a></li>
             </ul>
         </nav>
     </header>
@@ -33,10 +32,16 @@
         <input type="text" id="count" placeholder="Search cookbook"/>
       </div>
 
+      <div id="user-messages">
+        <div class="event"><span class="user-event">Håkon</span> uploaded a new recipe</div>
+        <div class="event"><span class="user-event">Tim</span> uploaded a new recipe</div>
+        <div class="event"><span class="system-event">recipes</span> loaded</div>
+      </div>
+
       <br />
 
-      <div class="grid-container">
-        <div class="image">
+      <div class="grid-container" id="gridContainer">
+        <!-- <div class="image">
           <img class="round" alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/The_Only_Original_Alfredo_Sauce_with_Butter_and_Parmesano-Reggiano_Cheese.png" width="200px"/>
         </div>
         <div class="image">
@@ -65,13 +70,13 @@
         </div>
         <div class="image">
           <img class="round" alt="Recipe1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chicken_makhani.jpg/2560px-Chicken_makhani.jpg" width="200px"/>
-        </div>
+        </div> -->
       </div>
 
       <br />
 
       <div>
-        <button>+</button>
+        <button id="addRecipeButton">+</button>
       </div>
     </main>
     <footer>

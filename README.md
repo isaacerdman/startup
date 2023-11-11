@@ -41,3 +41,10 @@ Meal prep can be a lifesaver. Whether you have fitness goals, a demanding schedu
  - **Application Elements** - Used borders, background and cohesive colorschemes to provide appealing structure visually. Attempted to keep main content minimal when possible.
  - **Application Text Content** - Consistent fonts, only used special fonts when necessary (see "Welcome" on home page) since they tend to be more distracting.
  - **Application Images** - Images on Cookbook page and recipe page have border and background set to allow for padding and proper framing. Tried the "nth child" color alternating but ended up thinking it was too busy and reverted to consistent colors.
+
+### JavaScript deliverable
+
+ - **Login** - Login allowed and takes user directly to next page. Local storage used to temporarily store and display current user.
+ - **Database Data** - Login info will be saved here. Upload image to be displayed in cookbook, will be saved for user.
+ - **WebSocket** - Notifications for when a user uploads a new recipe.
+ - **Interaction Logic** - Clicking on a recipe in cookbook will take you to the recipe page with single focus. Login works.
