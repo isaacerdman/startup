@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapFeed</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="brand">
+            <li class="info"><a href="index.html"><h1>SnapFeed</h1></a></li>
+            <li class="info"><span class="username"></span></li>
+          </ul>
+        </nav>
+        <nav>
+            <ul class="menu">
+              <li class="pages"><a href="index.html">Home</a></li>
+              <li class="pages"><a href="cookbook.html">Cookbook</a></li>
+              <li class="pages"><a href="recipe.html">Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <!-- More formatting with old style HTML -->
+      <br />
+
+      <div class="search-container">
+        <label for="count">Recipes: </label>
+        <input type="text" id="count" placeholder="Search cookbook"/>
+      </div>
+
+      <div id="user-messages">
+        <div class="event"><span class="user-event">Håkon</span> uploaded a new recipe</div>
+        <div class="event"><span class="user-event">Tim</span> uploaded a new recipe</div>
+        <div class="event"><span class="system-event">recipes</span> loaded</div>
+      </div>
+
+      <br />
+
+      <div class="grid-container" id="gridContainer">
+
+      </div>
+
+      <br />
+
+      <div>
+        <button id="addRecipeButton">+</button>
+      </div>
+    </main>
+    <footer>
+      <hr />
+      <span>Ike Erdman</span>
+      <br />
+      <a href="https://github.com/isaacerdman/cs260">GitHub</a>
+    </footer>
+    <script src="cookbook.js"></script>
+</body>
+</html>

@@ -128,3 +128,16 @@ Local storage values much be `string`, `number`, or `boolean`. Objects and array
  - **Database Data** - Login info will be saved here. Upload image to be displayed in cookbook, will be saved for user.
  - **WebSocket** - Notifications for when a user uploads a new recipe.
  - **Interaction Logic** - Clicking on a recipe in cookbook will take you to the recipe page with single focus. Login works.
+
+ ### Final Exam
+ 1. 80 HTTP, 443 HTTPS, 22 SSH
+ 2. 300 - redirection messages, 400 - client error, 500 - server error
+ 3. Allows you to specify content type being sent over HTTP
+ 4. Domain - what domain cookie coming from. Path - path that cookie was generated on. SameSite - only return cookie to site cookie was generated with. HTTPOnly - tells browser to not run JavaScript on browser to it can read the cookie
+ 5. Will be presented with code. In code there will be console logs for different functions. Determine which functions are called and in what order.
+ 6. Same idea as 5. In general, fetch is a frontend function that returns info on a call to the server from a client. 
+ 7. Grab all documents that have a cost greater than $10, where the name is "fran" followed by anthing (wild character). returns array of all documents that fit that profile.
+ 8. hashed (and salted?)
+ 9. connect, disconnect and message (what happens during these phases of websocket?)
+ 10. Either client or server can initiate contact, messages can be sent both ways.
+ 11. 
