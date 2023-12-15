@@ -48,3 +48,9 @@ Meal prep can be a lifesaver. Whether you have fitness goals, a demanding schedu
  - **Database Data** - Login info will be saved here. Upload image to be displayed in cookbook, will be saved for user.
  - **WebSocket** - Notifications for when a user uploads a new recipe.
  - **Interaction Logic** - Clicking on a recipe in cookbook will take you to the recipe page with single focus. Login works.
+
+### Service deliverable
+
+ - Random image loaded on login screen
+ - Random quote generated on login screen
+ - recipe page adjusted to display a "score", representing the number of recipes uploaded by a user
