@@ -54,3 +54,16 @@ Meal prep can be a lifesaver. Whether you have fitness goals, a demanding schedu
  - Random image loaded on login screen
  - Random quote generated on login screen
  - recipe page adjusted to display a "score", representing the number of recipes uploaded by a user
+
+### Database deliverable
+
+ - This one was too much for me to be able to add
+
+### Login deliverable
+
+ - Attempted to do exactly what Simon had. Couldn't without the database
+
+### Websocket deliverable
+
+ - Attempted to add a notification websocket. Not sure it it worked properly and may have overridden my Service Deliverable assuming that hasn't been looked at already
+
